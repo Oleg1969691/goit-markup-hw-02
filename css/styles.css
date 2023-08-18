@@ -3,39 +3,18 @@ body {
   line-height: 24px;
 }
 /* logo */
+.nav {
+  background-color: #fff;
+  width: 1440px;
+  height: 72px;
+}
 .logo {
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;
-  width: 71px;
-  height: 21px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .logo-word {
+  color: #4d5ae5;
+  font-family: "Releway", sans-serif;
   width: 44px;
   height: 21px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
 }
 .logo-link {
   /* Menu Nav */
