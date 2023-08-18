@@ -3,13 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <!-- body -->
@@ -17,19 +25,27 @@
     <header>
       <!--Logo-->
       <nav class="nav">
-        <a href="./index.html" class="logo"
-          ><span class="logo-word">Web</span>Studio</a
+        <a href="./index.html" class="logo link"
+          ><span class="logo-first-word link">Web</span>Studio</a
         >
-        <ul class="logo-link">
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <ul class="menu list">
+          <li><a href="" class="menu-link link">Studio</a></li>
+          <li><a href="" class="menu-link link">Portfolio</a></li>
+          <li><a href="" class="menu-link link">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="cotacts-list list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="cotacts-list-link link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="cotacts-list-link link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -38,36 +54,36 @@
       <!--Hero-->
       <section class="section-hero">
         <h1 class="title-hero">Effective Solutions for Your Business</h1>
-        <button type="button" class="button">Order Service</button>
+        <button type="button">Order Service</button>
       </section>
       <!-- description -->
       <section>
-        <h2>Description</h2>
-        <ul>
+        <h2 hidden>Description</h2>
+        <ul class="list">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="title-description">Strategy</h3>
+            <p class="content-descriotion">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="title-description">Punctuality</h3>
+            <p class="content-descriotion">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="title-description">Diligence</h3>
+            <p class="content-descriotion">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="title-description">Technologies</h3>
+            <p class="content-descriotion">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -76,8 +92,8 @@
       </section>
       <!-- Our Team -->
       <section>
-        <h2>Our Team</h2>
-        <ul>
+        <h2 class="title-team-main">Our Team</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/1.jpg"
@@ -85,8 +101,8 @@
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="title-team">Mark Guerrero</h3>
+            <p class="content-team">Product Designer</p>
           </li>
           <li>
             <img
@@ -95,8 +111,8 @@
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="title-team">Tom Ford</h3>
+            <p class="content-team">Frontend Developer</p>
           </li>
 
           <li>
@@ -106,8 +122,8 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="title-team">Camila Garcia</h3>
+            <p class="content-team">Marketing</p>
           </li>
           <li>
             <img
@@ -117,15 +133,15 @@
               height="260"
             />
 
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="title-team">Daniel Wilson</h3>
+            <p class="content-team">UI Designer</p>
           </li>
         </ul>
       </section>
       <!-- Our Portfolio -->
       <section>
-        <h2>Our Portfolio</h2>
-        <ul>
+        <h2 class="title-portfolio-main">Our Portfolio</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/10.jpg"
@@ -133,8 +149,8 @@
               width="360"
               height="300"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="title-portfolio">Banking App</h3>
+            <p class="content-portfolio">App</p>
           </li>
           <li>
             <img
@@ -143,7 +159,7 @@
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
+            <h3 class="title-portfolio">Cashless Payment</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -153,7 +169,7 @@
               width="360"
               height="300"
             />
-            <h3>Meditation App</h3>
+            <h3 class="title-portfolio">Meditation App</h3>
             <p>App</p>
           </li>
           <li>
@@ -163,8 +179,8 @@
               width="360"
               height="300"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="title-portfolio">Taxi Service</h3>
+            <p class="content-portfolio">Marketing</p>
           </li>
           <li>
             <img
@@ -173,8 +189,8 @@
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="title-portfolio">Screen Illustrations</h3>
+            <p class="content-portfolio">Design</p>
           </li>
           <li>
             <img
@@ -183,16 +199,18 @@
               width="360"
               height="300"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="title-portfolio">Online Courses</h3>
+            <p class="content-portfolio">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- footer -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a href="./index.html" class="logo link"
+        ><span class="logo-first-word link">Web</span>Studio</a
+      >
+      <p class="footer-content">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
