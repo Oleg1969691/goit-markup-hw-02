@@ -64,7 +64,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
 }
-.contacts-list-link:hover,
+.contacts-list-item {
+  color: #434455;
+}
+.contacts-list-item:hover {
+  color: #404bbf;
+}
+.contacts-list:hover,
 :focus {
   color: var(--ocean, #404bbf);
 }
@@ -115,7 +121,7 @@ body {
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .title-team-item {
