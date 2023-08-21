@@ -13,6 +13,10 @@
   letter-spacing: 0.04em;
   background: var(--iris, #4d5ae5);
 }
+address {
+  font-style: normal;
+  color: #434455;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -50,13 +54,17 @@ body {
 :focus {
   color: var(--ocean, #404bbf);
 }
-.cotacts-list {
+.menu-item {
+  color: #2e2f42;
+}
+.contacts-list {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--slate, #434455);
 }
-.cotacts-list-link:hover,
+.contacts-list-link:hover,
 :focus {
   color: var(--ocean, #404bbf);
 }
@@ -98,7 +106,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -134,7 +142,7 @@ body {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 .content-portfolio {
