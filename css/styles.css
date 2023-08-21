@@ -62,17 +62,11 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate, #434455);
-}
-.contacts-list-item {
   color: #434455;
 }
-.contacts-list-item:hover {
-  color: #404bbf;
-}
-.contacts-list:hover,
+.contacts-list-link:hover,
 :focus {
-  color: var(--ocean, #404bbf);
+  color: #404bbf;
 }
 /* Hero */
 .section-hero {
