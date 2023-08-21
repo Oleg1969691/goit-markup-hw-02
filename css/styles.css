@@ -13,7 +13,7 @@
   letter-spacing: 0.04em;
   background: var(--iris, #4d5ae5);
 }
-address {
+.address {
   font-style: normal;
   color: #434455;
 }
@@ -115,7 +115,7 @@ body {
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 .title-team-item {
